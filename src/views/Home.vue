@@ -1,18 +1,25 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="home content">
+    <h1>Selected Works</h1>
+    <youtube video-id="leBa5wKjyYk" />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import GusThumbnails from '@/components/GusThumbnails.vue';
 
 export default {
   name: 'home',
   components: {
-    HelloWorld,
+    GusThumbnails,
+  },
+  created() {
   },
 };
 </script>
+
+<style scoped lang="scss">
+.home {
+  margin-bottom: 24px;
+}
+</style>

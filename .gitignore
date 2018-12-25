@@ -19,3 +19,20 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+build/
+dist/
+node_modules/
+package-lock.json
+
+*.zip
+
+.DS_Store
+
+log
+*~
+
+*.env
+
+# IDE
+.vscode/
