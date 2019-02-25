@@ -2,8 +2,14 @@
   <div class="gallery">
     <h1>{{ title }}</h1>
     <transition-group class="thumbnails" name="thumbnailfade" tag="div">
-      <img v-for="(thumb, index) in images" :key="index.toString()"
-           @click="showLightbox(thumb.name)" :src="directory + thumb.name" :alt="thumb.alt" :title="thumb.alt" />
+      <img
+        v-for="(thumb, index) in images"
+        :key="index.toString()"
+        @click="showLightbox(thumb.name)"
+        :src="'/thumbnails' + directory + thumb.name"
+        :alt="thumb.alt"
+        :title="thumb.alt"
+      />
     </transition-group>
     <lightbox
       ref="lightbox"
