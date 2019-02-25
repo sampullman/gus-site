@@ -52,6 +52,14 @@ export default {
         name: 'lookin-good.jpg',
         alt: '...and back to his happy self',
       },
+      {
+        name: 'looking.jpg',
+        alt: 'Gazing upon his lands',
+      },
+      {
+        name: 'couch.jpg',
+        alt: 'Gus prefers pets to photo ops',
+      },
     ];
   },
 };
