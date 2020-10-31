@@ -60,6 +60,18 @@ export default {
         name: 'couch.jpg',
         alt: 'Gus prefers pets to photo ops',
       },
+      {
+        name: 'classic.jpg',
+        alt: 'The king on his throne',
+      },
+      {
+        name: 'lazy.jpg',
+        alt: 'A quick nap on the way to the kitchen',
+      },
+      {
+        name: 'tassia.jpg',
+        alt: 'Keeping a friend company during tough times',
+      },
     ];
   },
 };

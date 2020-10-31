@@ -36,6 +36,18 @@ export default {
         name: 'grump.jpg',
         alt: 'Gus gives the stink eye to protect a buried bone',
       },
+      {
+        name: 'dad2.jpg',
+        alt: 'Bewildered, but happy',
+      },
+      {
+        name: 'dig.jpg',
+        alt: 'Gus showing a friend how it\'s done',
+      },
+      {
+        name: 'friends.jpg',
+        alt: 'Enjoying a nice day at the beach, with friends',
+      },
     ];
   },
 };

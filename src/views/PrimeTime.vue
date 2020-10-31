@@ -51,6 +51,26 @@ export default {
         name: 'looking-back.jpg',
         alt: 'Gus sees something interesting',
       },
+      {
+        name: 'dad.jpg',
+        alt: 'Complaints will continue until petting resumes',
+      },
+      {
+        name: 'jenny.jpg',
+        alt: 'Gus is cool, and he knows it',
+      },
+      {
+        name: 'sleepy.jpg',
+        alt: 'Preparing for a peaceful night\'s sleep',
+      },
+      {
+        name: 'connor.jpg',
+        alt: 'Gus making the rounds, greeting his constituents',
+      },
+      {
+        name: 'sleepy2.jpg',
+        alt: 'Nap time after a hard day\'s morning',
+      },
     ];
   },
 };
