@@ -47,11 +47,11 @@ const router = new Router({
 });
 
 // eslint-disable-next-line no-unused-vars
-router.afterEach((to, from) => {
+router.afterEach((to, from) => (
   Vue.nextTick(() => {
-    const parentTitle = to.matched.some(record => record.meta.title);
+    const parentTitle = to.matched.some((record) => record.meta.title);
     document.title = to.meta.title || parentTitle || 'Gus Pullman';
-  });
-});
+  })
+));
 
 export default router;

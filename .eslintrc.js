@@ -32,7 +32,7 @@ module.exports = {
     'object-curly-newline': ['error', {
       consistent: true,
       multiline: true,
-    }]
+    }],
   },
   parserOptions: {
     parser: 'babel-eslint',

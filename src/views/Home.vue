@@ -6,15 +6,9 @@
 </template>
 
 <script>
-import GusThumbnails from '@/components/GusThumbnails.vue';
 
 export default {
   name: 'home',
-  components: {
-    GusThumbnails,
-  },
-  created() {
-  },
 };
 </script>
 

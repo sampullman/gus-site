@@ -1,4 +1,3 @@
-
 import Vue from 'vue';
 import Lightbox from 'vue-my-photos';
 import VueYoutube from 'vue-youtube';
@@ -14,5 +13,5 @@ Vue.use(VueYoutube);
 
 new Vue({
   router,
-  render: h => h(App),
+  render: (h) => h(App),
 }).$mount('#app');
